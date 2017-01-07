@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "me.html",
+    "currentPage": "oakland tech.html",
     "name": "humansofoakland",
     "theme": {
       "name": "mobirise3",
@@ -45,7 +45,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "showArrow": true,
+            "showArrow": false,
             "bgImage": "@PROJECT_PATH@/assets/images/screen-shot-2017-01-05-at-11-2000x1455.png",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
@@ -168,7 +168,7 @@
             "fontName": {},
             "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -196,13 +196,18 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HUMANS OF OAKLAND</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"SERIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">SERIES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"STORIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">ABOUT</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "SPAN": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-1h",
           "_params": {
             "paddingTop": 2,
@@ -305,12 +310,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "SPAN": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
@@ -1759,7 +1759,7 @@
     },
     "SERIES.html": {
       "settings": {
-        "order": 3,
+        "order": 4,
         "meta_descr": ""
       },
       "components": [
@@ -1841,7 +1841,7 @@
             "fontName": {},
             "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1865,7 +1865,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HUMANS OF OAKLAND</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"SERIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">SERIES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"STORIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">ABOUT</a></li>"
         },
         {
           "_tags": [
@@ -1888,7 +1888,7 @@
             "autoplay": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "timeout": 5,
+            "timeout": "4",
             "slides": [
               {
                 "active": false,
@@ -1945,33 +1945,10 @@
         }
       ]
     },
-    "ABOUT.html": {
-      "settings": {
-        "order": 4,
-        "meta_descr": ""
-      },
-      "components": [
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
-        }
-      ]
-    },
     "first friday.html": {
-      "settings": {},
+      "settings": {
+        "order": 5
+      },
       "components": [
         {
           "_name": "footer1",
@@ -2075,7 +2052,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HUMANS OF OAKLAND</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"SERIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">SERIES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"STORIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">ABOUT</a></li>"
         },
         {
           "_tags": [
@@ -2962,7 +2939,9 @@
       ]
     },
     "cityteam.html": {
-      "settings": {},
+      "settings": {
+        "order": 6
+      },
       "components": [
         {
           "_name": "footer1",
@@ -3066,13 +3045,21 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HUMANS OF OAKLAND</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"SERIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">SERIES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"STORIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">ABOUT</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "SPAN": {
+              "font-size": "17px"
+            },
+            "H4": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-19",
           "_params": {
             "paddingTop": 2,
@@ -3179,21 +3166,21 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "SPAN": {
-              "font-size": "17px"
-            },
-            "H4": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "SPAN": {
+              "font-size": "17px"
+            },
+            "I": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-1c",
           "_params": {
             "paddingTop": 2,
@@ -3296,21 +3283,18 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "SPAN": {
-              "font-size": "17px"
-            },
-            "I": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-1b",
           "_params": {
             "paddingTop": 2,
@@ -3421,18 +3405,18 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "H4": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "SPAN": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-1a",
           "_params": {
             "paddingTop": 2,
@@ -3535,18 +3519,18 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "SPAN": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "SPAN": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-1e",
           "_params": {
             "paddingTop": 2,
@@ -3649,18 +3633,18 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "SPAN": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "SPAN": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-1d",
           "_params": {
             "paddingTop": "0",
@@ -3763,18 +3747,18 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "SPAN": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-1f",
           "_params": {
             "paddingTop": 2,
@@ -3877,18 +3861,18 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "H4": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "SPAN": {
+              "font-size": "17px"
+            }
+          },
           "_anchor": "features3-1g",
           "_params": {
             "paddingTop": 2,
@@ -3991,17 +3975,14 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "SPAN": {
-              "font-size": "17px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         }
       ]
     },
     "oakland tech.html": {
-      "settings": {},
+      "settings": {
+        "order": 7
+      },
       "components": [
         {
           "_tags": [
@@ -4344,7 +4325,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HUMANS OF OAKLAND</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"SERIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">SERIES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"STORIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">ABOUT</a></li>"
         },
         {
           "_tags": [
@@ -5158,8 +5139,10 @@
         }
       ]
     },
-    "me.html": {
-      "settings": {},
+    "ABOUT.html": {
+      "settings": {
+        "order": 3
+      },
       "components": [
         {
           "_name": "footer1",
@@ -5263,7 +5246,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HUMANS OF OAKLAND</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"SERIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">SERIES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"STORIES.html\">STORIES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"me.html\">ABOUT</a></li>"
         },
         {
           "_tags": [
@@ -5283,6 +5266,14 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "header2-1m",
           "_params": {
             "imageSize": 50,
@@ -5327,16 +5318,8 @@
             }
           },
           "title": "ABOUT",
-          "text": "\"Inspired by Brandon Stanten's Humans of New York, I &nbsp; created Humans of Oakland.&nbsp;I have walked the streets of Oakland for sixteen years and always wondered about people’s lives - their celebrations, their downfalls, their inspirations. In my free time, I roam around taking street portraits, conversing with people, and sharing their stories and portraits online. Art thrives on the unexpected, just like the conversations and connections I make with the people I interview. That art is the culture of positivity and hope. It is the breaking down of internal biases that many of us possess in our community through a process of understanding each other. Each person is special and unique not just in the amount of melanin in their skin, but through their lived experiences. The personal relationships I have made evoke compassion within me. This too is what I hope will happen to people reading the stories I publish.\"<br><br>Contact: janiechen2@gmail.com &nbsp;&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000000"
-            },
-            ".mbr-section-text": {
-              "color": "#000000"
-            }
-          }
+          "text": "\"Inspired by Brandon Stanten's Humans of New York, I created Humans of Oakland to capture and showcase my hometown.&nbsp;I have walked the streets of Oakland for sixteen years and always wondered about people’s lives - their celebrations, downfalls, inspirations. In my free time, I roam around taking street portraits, conversing with people, and sharing their stories and portraits online. Art thrives on the unexpected, just like the conversations and connections I make with the people I interview. That art is the culture of positivity and hope. It is the breaking down of internal biases that many of us possess in our community through a process of understanding each other. Each person is special and unique not just in the amount of melanin in their skin, but through their lived experiences. The personal relationships I have made evoke compassion within me. This too is what I hope will happen to people reading the stories I publish.\"<br><br>Contact: janiechen2@gmail.com &nbsp;&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_tags": [
@@ -5349,7 +5332,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">FACEBOOK</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://www.instagram.com/humansofoaklnd/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSTAGRAM</a> <a data-app-btn=\"true\" class=\"btn btn-secondary-outline btn-secondary\" href=\"humansofoakland.tumblr.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">TUMBLR</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://www.facebook.com/humansofoaklnd/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">FACEBOOK</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://www.instagram.com/humansofoaklnd/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSTAGRAM</a> <a data-app-btn=\"true\" class=\"btn btn-secondary-outline btn-secondary\" href=\"humansofoakland.tumblr.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">TUMBLR</a>"
         }
       ]
     }
